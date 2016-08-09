@@ -49,4 +49,5 @@
 
     <content src="https://crazedo.com" />
     <access origin="*" subdomains="true" />
+    <allow-navigation href="*" />
 </widget>
