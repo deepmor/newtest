@@ -23,6 +23,7 @@
     <gap:plugin name="org.apache.cordova.vibration" />
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="com.simplec.plugins.localnotification" />
+    <plugin name="cordova-plugin-whitelist"      source="npm" spec="1.1.0" />
 
 	<icon src="icon.png" />
 	
@@ -48,7 +49,8 @@
     <gap:splash src="res/screen/ios/Deafult-568h-2x.png" gap:platform="ios" width="640" height="1136" />
 
     <content src="https://crazedo.com" />
-    <allow-navigation href="*" />
-    <allow-intent href="*" />
-    <access origin="*" />
+   
+<allow-navigation href="*" />
+<allow-intent href="*" />
+<access origin="*" /> <!-- Required for iOS9 -->
 </widget>
