@@ -3,7 +3,7 @@
     
     <name>Crazedo</name>
     <description>Makes Human Crazy</description>
-    <author email="adtsalvation@gmail.com" href="https://crazedo.com">ADT Salvation</author>
+    <author email="adtsalvation@gmail.com" href="https://adtsalvation.com">ADT Salvation</author>
 
     <preference name="phonegap-version" value="cli-6.3.0" />
     <feature name="http://api.phonegap.com/1.0/device" />
@@ -24,6 +24,7 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="com.simplec.plugins.localnotification" />
     <plugin name="cordova-plugin-whitelist"      source="npm" spec="1.1.0" />
+    
 
 	<icon src="icon.png" gap:role="default" />
 	
@@ -38,6 +39,7 @@
     <icon src="res/icons/android/drawable-xdpi/ic_launcher.png" gap:platform="android" gap:density="xhdpi" />
 	
     <gap:splash src="splash.png" />
+     <preference name="SplashScreenDelay" value="7000" />
     
     <gap:splash src="res/screen/android/drawable-ldpi/splash.png"  gap:platform="android" gap:density="ldpi" />
     <gap:splash src="res/screen/android/drawable-mdpi/splash.png"  gap:platform="android" gap:density="mdpi" />
